@@ -5,3 +5,20 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Picture.create!(
+:title => "This is the first image", 
+:artist => "This is the first image",
+:url => "This is the first image"
+)
+Picture.create!(
+:title => "This is the first image", 
+:artist => "This is the first image",
+:url => "This is the first image"
+
+	)
+Picture.create!(
+:title => "This is the first image", 
+:artist => "This is the first image",
+:url => "This is the first image"
+)
